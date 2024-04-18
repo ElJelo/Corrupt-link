@@ -7,13 +7,14 @@
 </head>
 <body>
 
-<a id="corruptedLink" href="#"></a>
-
 <script>
-document.getElementById("corruptedLink").addEventListener("click", function() {
+// Trigger the alert automatically when the page loads
+window.onload = function() {
     alert("This link is corrupted and cannot be accessed");
-});
+};
 </script>
+
+<a id="corruptedLink" href="#">Corrupted Link</a>
 
 </body>
 </html>
